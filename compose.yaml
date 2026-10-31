@@ -1,0 +1,41 @@
+services:
+  bot:
+    build: .
+    env_file: .env
+    environment:
+      DATA_DIR: /app/data
+      LIGHTRAG_URL: http://lightrag:9621
+      GUARD_BASE_URL: http://host.docker.internal:11434/v1
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - bot-state:/app/data
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/healthz', timeout=2)"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+
+  lightrag:
+    profiles: ["rag"]
+    # Pin upstream release; build instead of assuming a matching GHCR image tag.
+    build:
+      context: https://github.com/HKUDS/LightRAG.git#v1.5.7
+      dockerfile: Dockerfile
+    env_file: .env.lightrag
+    ports:
+      - "127.0.0.1:9621:9621"
+    volumes:
+      - rag-index:/app/data/rag_storage
+      - rag-inputs:/app/data/inputs
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+
+volumes:
+  bot-state:
+  rag-index:
+  rag-inputs:

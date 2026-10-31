@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "guidance": [
+    {
+      "id": "perm-texture",
+      "serviceId": "perm",
+      "goals": ["curls", "volume"],
+      "text": "หากต้องการลอนหรือวอลลุ่ม อาจปรึกษาช่างเรื่องบริการดัดผม (Perm) ได้ครับ การดัดช่วยเปลี่ยนรูปทรงเส้นผม แต่ยังต้องดูแลและจัดทรง ไม่ได้หมายความว่าทำแล้วไม่ต้องเซ็ตเลย ช่างควรประเมินสภาพผมก่อน โดยเฉพาะผมแห้งหรือเส้นเล็ก",
+      "sourceTitle": "Wella Professionals: Does a Perm Damage Your Hair?",
+      "sourceUrl": "https://www.wella.com/professional/en-US/blog/hair-care/does-a-perm-damage-your-hair",
+      "reviewedOn": "2026-10-09",
+      "scope": "general-reference"
+    },
+    {
+      "id": "straight-smooth",
+      "serviceId": "straightening",
+      "goals": ["straight"],
+      "text": "หากต้องการเปลี่ยนผมให้ตรง อาจปรึกษาช่างเรื่องบริการยืดผมครับ วิธีและความเหมาะสมต้องประเมินจากสภาพผมจริงและผลิตภัณฑ์ที่ร้านใช้ ไม่ควรเลือกเพียงเพราะอยากลดเวลาเซ็ต",
+      "sourceTitle": "Wella Professionals: Does a Perm Damage Your Hair?",
+      "sourceUrl": "https://www.wella.com/professional/en-US/blog/hair-care/does-a-perm-damage-your-hair",
+      "reviewedOn": "2026-10-09",
+      "scope": "general-reference"
+    },
+    {
+      "id": "smoothing-consult",
+      "serviceId": "keratin",
+      "goals": ["smooth"],
+      "text": "หากอยากลดความชี้ฟูและให้ผมจัดการง่ายขึ้น อาจสอบถามช่างว่าบริการเคราตินของร้านเหมาะกับเป้าหมายนี้หรือไม่ครับ ระบบ smoothing บางชนิดออกแบบมาเพื่อเป้าหมายดังกล่าว แต่ยังไม่มีข้อมูลว่าร้านใช้ผลิตภัณฑ์หรือเทคนิคใด จึงยังยืนยันผลลัพธ์ของบริการร้านไม่ได้",
+      "sourceTitle": "KERASILK: Keratin Treatment Service (ตัวอย่างระบบ smoothing ไม่ใช่การยืนยันผลิตภัณฑ์ของร้าน)",
+      "sourceUrl": "https://www.kerasilk.com/en-us/kerasilk-expert-services/keratin-treatment/",
+      "reviewedOn": "2026-10-09",
+      "scope": "general-reference"
+    }
+  ],
+  "questions": [
+    {"id":"desired-look","text":"อยากได้ผลลัพธ์แบบไหนครับ: มีลอน/วอลลุ่ม หรือผมตรงเรียบ?"},
+    {"id":"hair-history","text":"ก่อนหน้านี้เคยฟอก ทำสี ดัด หรือยืด และตอนนี้ผมแห้งหรือเปราะขาดง่ายไหมครับ?"},
+    {"id":"styling-time","text":"ยอมใช้เวลาจัดทรงต่อวันประมาณกี่นาทีครับ?"}
+  ]
+}

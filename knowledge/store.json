@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 1,
+  "storeName": "UNNAMED",
+  "services": [
+    {
+      "id": "haircut",
+      "name": "ตัดผมและสระผม (Haircut & Shampoo)",
+      "aliases": [
+        "ตัดผม",
+        "ตัดสระ",
+        "ตัดและสระ",
+        "haircut",
+        "hair cut"
+      ],
+      "durationMinutes": 60,
+      "minimumDuration": false,
+      "priceBaht": 700,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09 (Services)"
+    },
+    {
+      "id": "kids-haircut",
+      "name": "ตัดผมเด็ก (Kids Haircut)",
+      "aliases": [
+        "ตัดผมเด็ก",
+        "ตัดเด็ก",
+        "kids haircut",
+        "เด็กตัด"
+      ],
+      "durationMinutes": 30,
+      "minimumDuration": false,
+      "priceBaht": 500,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09 (Services)"
+    },
+    {
+      "id": "shampoo-styling",
+      "name": "สระผมและจัดแต่งทรง (Shampoo & Styling)",
+      "aliases": [
+        "สระผม",
+        "สระไดร์",
+        "สระและจัดทรง",
+        "จัดแต่งทรง",
+        "shampoo",
+        "styling"
+      ],
+      "durationMinutes": 30,
+      "minimumDuration": false,
+      "priceBaht": 350,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09 (Services)"
+    },
+    {
+      "id": "shave",
+      "name": "UNNAMED Signature Hot Towel Shave with Special Facial Massage",
+      "aliases": [
+        "โกนหนวด",
+        "โกนเครา",
+        "ผ้าร้อน",
+        "นวดหน้า",
+        "shave",
+        "shaving",
+        "hot towel"
+      ],
+      "durationMinutes": 45,
+      "minimumDuration": false,
+      "priceBaht": 600,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09 (Services)"
+    },
+    {
+      "id": "perm",
+      "name": "ดัดผม (Perm)",
+      "aliases": [
+        "ดัดผม",
+        "ดัดลอน",
+        "ดัด",
+        "perm"
+      ],
+      "durationMinutes": 180,
+      "minimumDuration": false,
+      "priceBaht": 2000,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09 (Services)"
+    },
+    {
+      "id": "down-up-perm",
+      "name": "Down / Up Perm",
+      "aliases": [
+        "down perm",
+        "up perm",
+        "ดาวน์เพิร์ม",
+        "ดาวน์เพิม",
+        "ดัดโคน",
+        "กดผม"
+      ],
+      "durationMinutes": 90,
+      "minimumDuration": false,
+      "priceBaht": 700,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09 (Services)"
+    },
+    {
+      "id": "straightening",
+      "name": "ยืดผม (Hair Straightening)",
+      "aliases": [
+        "ยืดผม",
+        "ยืด",
+        "straightening"
+      ],
+      "durationMinutes": 150,
+      "minimumDuration": false,
+      "priceBaht": 2400,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09 (Services)"
+    },
+    {
+      "id": "keratin",
+      "name": "เคราติน (Keratin Treatment)",
+      "aliases": [
+        "เคราติน",
+        "เคราทิน",
+        "keratin"
+      ],
+      "durationMinutes": 180,
+      "minimumDuration": true,
+      "priceBaht": 2400,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09 (Services)"
+    },
+    {
+      "id": "coloring",
+      "name": "ทำสีผม (Hair Coloring)",
+      "aliases": [
+        "ทำสี",
+        "ย้อมผม",
+        "สีผม",
+        "coloring",
+        "colouring",
+        "hair color"
+      ],
+      "durationMinutes": 90,
+      "minimumDuration": true,
+      "priceBaht": 1000,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09 (Services)"
+    },
+    {
+      "id": "deep-treatment",
+      "name": "บำรุงผมล้ำลึก (Deep Hair Treatment)",
+      "aliases": [
+        "ทรีตเมนต์",
+        "ทรีทเม้น",
+        "บำรุงผม",
+        "หมักผม",
+        "deep hair treatment",
+        "deep treatment"
+      ],
+      "durationMinutes": 30,
+      "minimumDuration": false,
+      "priceBaht": 800,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09 (Services)"
+    },
+    {
+      "id": "scalp-detox",
+      "name": "ดีท็อกซ์หนังศีรษะ (Scalp Detox Treatment)",
+      "aliases": [
+        "ดีท็อกซ์",
+        "ดีท็อก",
+        "หนังศีรษะ",
+        "scalp",
+        "detox"
+      ],
+      "durationMinutes": 45,
+      "minimumDuration": false,
+      "priceBaht": 1300,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09 (Services)"
+    },
+    {
+      "id": "promo-bleach-one-color",
+      "name": "ฟอกผม 1 ครั้ง + ทำสี (1 Bleach + Color)",
+      "aliases": [
+        "ฟอกผม 1 ครั้ง",
+        "ฟอก 1 ครั้ง",
+        "ฟอกหนึ่งครั้ง",
+        "ฟอกผมหนึ่งครั้ง",
+        "1 bleach + color",
+        "1 bleach",
+        "ฟอกครั้งเดียว",
+        "ฟอกหนึ่งครั้งพร้อมทำสี",
+        "ฟอก 1 ครั้งพร้อมทำสี",
+        "ฟอกผม 1 ครั้งพร้อมทำสี"
+      ],
+      "priceBaht": 2499,
+      "durationMinutes": 90,
+      "minimumDuration": true,
+      "category": "promotion",
+      "relatedServiceId": "coloring",
+      "source": "ผู้ใช้ยืนยัน 2026-10-17: ราคาแพ็กเกจและเวลาเดิม ใช้จนกว่าจะเปลี่ยน"
+    },
+    {
+      "id": "promo-bleach-two-color",
+      "name": "ฟอกผม 2 ครั้ง + ทำสี (2 Bleaches + Color)",
+      "aliases": [
+        "ฟอกผม 2 ครั้ง",
+        "ฟอก 2 ครั้ง",
+        "ฟอกสองครั้ง",
+        "ฟอกผมสองครั้ง",
+        "2 bleaches + color",
+        "2 bleaches",
+        "2 bleach",
+        "ฟอกสองครั้งพร้อมทำสี",
+        "ฟอก 2 ครั้งพร้อมทำสี",
+        "ฟอกผม 2 ครั้งพร้อมทำสี"
+      ],
+      "priceBaht": 2999,
+      "durationMinutes": 90,
+      "minimumDuration": true,
+      "category": "promotion",
+      "relatedServiceId": "coloring",
+      "source": "ผู้ใช้ยืนยัน 2026-10-17: ราคาแพ็กเกจและเวลาเดิม ใช้จนกว่าจะเปลี่ยน"
+    },
+    {
+      "id": "promo-keratin-haircut",
+      "name": "เคราติน + ฟรีตัดผม (Keratin + Free Haircut)",
+      "aliases": [
+        "เคราตินฟรีตัด",
+        "เคราติน ฟรีตัด",
+        "เคราติน + ฟรีตัด",
+        "keratin free haircut",
+        "keratin (free haircut)",
+        "keratin + free haircut"
+      ],
+      "priceBaht": 2400,
+      "durationMinutes": 180,
+      "minimumDuration": true,
+      "category": "promotion",
+      "relatedServiceId": "keratin",
+      "source": "ผู้ใช้ยืนยัน 2026-10-17: ราคาแพ็กเกจและเวลาเดิม ใช้จนกว่าจะเปลี่ยน"
+    },
+    {
+      "id": "promo-perm-haircut",
+      "name": "ดัดผม + ฟรีตัดผม (Perm + Free Haircut)",
+      "aliases": [
+        "ดัดฟรีตัด",
+        "ดัดผมฟรีตัด",
+        "ดัดผม ฟรีตัด",
+        "ดัดผม + ฟรีตัด",
+        "perm free haircut",
+        "perm + free haircut"
+      ],
+      "priceBaht": 2000,
+      "durationMinutes": 180,
+      "minimumDuration": false,
+      "category": "promotion",
+      "relatedServiceId": "perm",
+      "source": "ผู้ใช้ยืนยัน 2026-10-17: ราคาแพ็กเกจและเวลาเดิม ใช้จนกว่าจะเปลี่ยน"
+    },
+    {
+      "id": "promo-straightening-haircut",
+      "name": "ยืดผม + ฟรีตัดผม (Straightening + Free Haircut)",
+      "aliases": [
+        "ยืดฟรีตัด",
+        "ยืดผมฟรีตัด",
+        "ยืดผม ฟรีตัด",
+        "ยืดผม + ฟรีตัด",
+        "straightening free haircut",
+        "straightening + free haircut"
+      ],
+      "priceBaht": 2400,
+      "durationMinutes": 150,
+      "minimumDuration": false,
+      "category": "promotion",
+      "relatedServiceId": "straightening",
+      "source": "ผู้ใช้ยืนยัน 2026-10-17: ราคาแพ็กเกจและเวลาเดิม ใช้จนกว่าจะเปลี่ยน"
+    }
+  ],
+  "facts": [
+    {
+      "id": "contact-phone",
+      "topic": "phone",
+      "text": "เบอร์ติดต่อร้าน UNNAMED: 098-962-5363",
+      "confirmed": true,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09"
+    },
+    {
+      "id": "contact-map",
+      "topic": "location",
+      "text": "แผนที่ร้าน UNNAMED: https://maps.app.goo.gl/EHXG3E7cVvfgSEJf7",
+      "confirmed": true,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09"
+    },
+    {
+      "id": "opening-hours",
+      "topic": "hours",
+      "text": "ร้าน UNNAMED เปิดทุกวัน เวลา 10.00–20.00 น. (เวลาไทย)",
+      "confirmed": true,
+      "source": "เจ้าของร้านยืนยัน 2026-10-09"
+    },
+    {
+      "id": "parking",
+      "topic": "parking",
+      "text": "",
+      "confirmed": false,
+      "source": "รอเจ้าของยืนยัน"
+    },
+    {
+      "id": "booking-policy",
+      "topic": "booking",
+      "text": "บอต LINE ใหม่นี้ให้ข้อมูลร้านเท่านั้น ยังไม่รองรับการจอง ตรวจสอบ เลื่อน หรือยกเลิกคิวครับ",
+      "confirmed": true,
+      "source": "ขอบเขตระบบใหม่ v1"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "april-perm",
+      "topic": "promotion",
+      "text": "April’s Deals: ดัดผม + ฟรีตัด 2,000 บาท ระยะเวลา 150 นาที",
+      "confirmed": false,
+      "validFrom": null,
+      "validUntil": null,
+      "source": "Promo.html + code.gs:SERVICE_DURATION (ยังไม่ทราบปีและวันหมดอายุ)"
+    },
+    {
+      "id": "april-straight-keratin",
+      "topic": "promotion",
+      "text": "April’s Deals: ยืดผม/เคราติน + ฟรีตัด 2,400 บาท ระยะเวลา 180 นาที",
+      "confirmed": false,
+      "validFrom": null,
+      "validUntil": null,
+      "source": "Promo.html + code.gs:SERVICE_DURATION"
+    },
+    {
+      "id": "april-down-perm",
+      "topic": "promotion",
+      "text": "April’s Deals: ตัด + Down Perm 2,000 บาท ระยะเวลา 120 นาที",
+      "confirmed": false,
+      "validFrom": null,
+      "validUntil": null,
+      "source": "Promo.html + code.gs:SERVICE_DURATION"
+    }
+  ]
+}

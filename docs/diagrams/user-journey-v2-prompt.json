@@ -1,0 +1,6 @@
+{
+  "tool": "built-in image_gen",
+  "source": "user-journey-v1.png",
+  "output": "user-journey-v2-male.png",
+  "prompt": "Edit the supplied UNNAMED CHATBOT User Journey infographic. Change ONLY the human illustrations: all three customer avatars in lanes A and B must depict the same young adult Thai MAN with short dark hair, a masculine face, and the same teal casual shirt, in the same friendly cartoon illustration style. Preserve each pose, phone, expression and exact placement: lane A customer holding phone, first lane B customer thinking while holding phone, second lane B customer smiling. Also change the small hair-reference thumbnail in lane C to a simple male short wavy hairstyle illustration, keeping its frame and thumbnail position. Keep EVERY other element unchanged: exact Thai and English wording, all prices and durations, speech bubbles, headings, row labels, robot icons, arrows, cards, colors, background, layout, aspect ratio and resolution. Do not reword or add any text. Do not move or crop elements. This is solely a female-to-male customer illustration update. The customer must read clearly as an adult man, with no long hair. Keep the entire image publication-ready and legible."
+}
